@@ -119,12 +119,12 @@ echo "BUILD_INFO - The $lab lab images has been moved under /site/img/$lab."
 #echo "BUILD_INFO - The $lab lab images has been moved under /site/img/$lab."
 
 # Build the MAS v8.11 deployment for Health Predict and Utilities Lab level:
-lab=apm_8.11
-cd $root_dir/MkDocs/$lab
-mkdocs build
-echo "BUILD_INFO - The $lab labs are build and added under the top level of IBM Maximo Labs."
-mv $root_dir/site/$lab/img/$lab $root_dir/site/img/
-echo "BUILD_INFO - The $lab lab images has been moved under /site/img/$lab."
+#lab=apm_8.11
+#cd $root_dir/MkDocs/$lab
+#mkdocs build
+#echo "BUILD_INFO - The $lab labs are build and added under the top level of IBM Maximo Labs."
+#mv $root_dir/site/$lab/img/$lab $root_dir/site/img/
+#echo "BUILD_INFO - The $lab lab images has been moved under /site/img/$lab."
 
 # Build the MAS deployment on OCP lab level:
 #lab=ocp_8.9
@@ -158,6 +158,13 @@ echo "BUILD_INFO - The $lab labs are build and added under the top level of IBM 
 mv $root_dir/site/$lab/img/$lab $root_dir/site/img/
 echo "BUILD_INFO - The $lab lab images has been moved under /site/img/$lab."
 
+# Build the Monitor Edge Data Collector level:
+lab=github_pages
+cd $root_dir/MkDocs/$lab
+mkdocs build
+echo "BUILD_INFO - The $lab labs are build and added under the top level of IBM Maximo Labs."
+mv $root_dir/site/$lab/img/$lab $root_dir/site/img/
+echo "BUILD_INFO - The $lab lab images has been moved under /site/img/$lab."
 
 ########################################################################################
 #### DON't CHANGE THE BELOW MANDATORY SECTION WHICH IS PART OF THE TOPLEVEL CONTENT ####
