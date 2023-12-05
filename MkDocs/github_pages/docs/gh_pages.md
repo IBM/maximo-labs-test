@@ -11,7 +11,7 @@ These are the steps to setup Github Pages in a Githup repository:
 You can create the gh-pages branch directly under Code | branches by pressing the `New brach` button.
 
 Navigating to Settings | Pages you should automatically see that Github Pages has been setup to use that branch.
-![Github Pages](../img/gh-pages_01.png)
+![Github Pages](../img/gh_pages_01.png)
 
 ## 2. Edit all links to the sub labs
 

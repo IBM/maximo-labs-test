@@ -10,7 +10,7 @@ nav:
     - Welcome to the Github Pages Labs: index.md
     - Pre-Requisites: prereqs.md
   - Exercises:
-        - 1. Setup Github Pages: gh-pages.md
+        - 1. Setup Github Pages: gh_pages.md
         - 2. Change Image Location: image_locations.md
   - About: about.md
 
