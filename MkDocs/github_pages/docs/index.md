@@ -3,8 +3,8 @@ This lab will document the steps needed in order to use Github Pages to host the
 like:
 
 * Changes to the github repo
+* Change image location in all md files and modify the build_all_mkdocs script
 * Edit mkdocs.yml files for all labs
-* Modify the build_all_mkdocs script
 * ...
 
 A minimized replica of the originial monitor-hands-on-labs has been used 

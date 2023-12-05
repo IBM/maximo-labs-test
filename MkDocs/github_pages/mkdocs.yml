@@ -1,17 +1,17 @@
 site_name: Github Pages Lab
-site_url: http://maximo-lab.monitordemo4.ibmmam.com/
+site_url: https://ibm.github.io/maximo-labs-test/
 site_author: Jan Ekstrøm
 site_description: "Github Pages Hands on Lab"
 site_dir: ../../site/github_pages
 
 nav:
-  - Get back to Maximo Labs: /
+  - Get back to Maximo Labs: /maximo-labs-test/
   - Github Pages Labs:
     - Welcome to the Github Pages Labs: index.md
     - Pre-Requisites: prereqs.md
   - Exercises:
         - 1. Setup Github Pages: gh-pages.md
-        - 2. Do something else: something_else.md
+        - 2. Change Image Location: image_locations.md
   - About: about.md
 
 theme: readthedocs
