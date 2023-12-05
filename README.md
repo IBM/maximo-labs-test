@@ -1,4 +1,9 @@
-# maximo-labs-test
-This repo is for testing of changes to Maximo Hands On Labs, that has the following description: 
+# IBM Maximo Hands On Labs
+This is an MkDocs web site to open source the documentation for Maximo Hands On Labs.
+This will enable multiple contributors to help submit issues and maintain the documentation.
 
-This is an MkDocs web site to open source the IBM Maximo Hands On Labs. This will enable multiple contributors including partners and customer to help submit issues and maintain the Maximo Hands On Labs.
+Access the published doc here: [http://maximo-lab.monitordemo4.ibmmam.com/](http://maximo-lab.monitordemo4.ibmmam.com/)
+
+
+
+Find the description on how to contribute here: [http://maximo-lab.monitordemo4.ibmmam.com/contribute/](http://maximo-lab.monitordemo4.ibmmam.com/contribute/)
