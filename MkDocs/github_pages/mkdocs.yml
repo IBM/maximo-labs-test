@@ -8,10 +8,9 @@ nav:
   - Get back to Maximo Labs: /
   - Github Pages Labs:
     - Welcome to the Github Pages Labs: index.md
-    - Get Started: getting_started.md
     - Pre-Requisites: prereqs.md
-    - Exercises:
-        - 1. Do something: something.md
+  - Exercises:
+        - 1. Setup Github Pages: gh-pages.md
         - 2. Do something else: something_else.md
   - About: about.md
 

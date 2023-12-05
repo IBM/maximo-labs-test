@@ -1,14 +1,20 @@
-# Welcome to the IBM Maximo Template Lab<br>(Version: 1.0)
-You will learn about Template's capabilities to:
+# Welcome to the IBM Maximo Github Pages Lab
+This lab will document the steps needed in order to use Github Pages to host the Maximo Labs,
+like:
 
-* One thing
-* Another thing
-* Yet another third thing
+* Changes to the github repo
+* Edit mkdocs.yml files for all labs
+* Modify the build_all_mkdocs script
+* ...
 
-Maximo Template product information goes here.
+A minimized replica of the originial monitor-hands-on-labs has been used 
+in order to get the basics right.
+
+The experimentation has been done in a new Github repo in the IBM organization, 
+called maximo-labs-test.
 
 ---
 
-**Updated: 2021-01-04**
+**Updated: 2023-12-05**
 
 ---
