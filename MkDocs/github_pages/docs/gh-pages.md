@@ -13,3 +13,18 @@ You can create the gh-pages branch directly under Code | branches by pressing th
 Navigating to Settings | Pages you should automatically see that Github Pages has been setup to use that branch.
 ![Github Pages](../img/gh-pages_01.png)
 
+## 2. Edit all links to the sub labs
+
+The toplevel file `index.md` need to change all the links to the sub labs from absolute to relative links, e.g. change this
+
+    ### CHANGES FOR GITHUB PAGES
+    [Github Pages](/github_pages/)  
+
+
+to
+
+    ### CHANGES FOR GITHUB PAGES
+    [Github Pages](github_pages/)  
+
+
+

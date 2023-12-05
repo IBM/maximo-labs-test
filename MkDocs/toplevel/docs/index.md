@@ -9,24 +9,24 @@ portfolio.  The labs are in different states of readiness for use shown below. F
 ### Maximo Application Suite 8.11
 | Lab                                              | Exercise                                                      |
 |--------------------------------------------------|---------------------------------------------------------------|
-| [Maximo Monitor Edge Data Collector](/edc_8.11/) | [Setup Simulator Environment](/edc_8.11/setup)                |
-|                                                  | [Create Monitor Devices](/edc_8.11/monitor_devices)           |
-|                                                  | [Create EDC Integration](/edc_8.11/edc_integration)           |
-|                                                  | [Deploy and Verify Integration](/edc_8.11/deploy)             |
-|                                                  | [Create Monitor Metrics](/edc_8.11/monitor_metrics)           |
-| [Monitor Node-RED CSV Importer V2](/monitor_nodered_csv_importer_2.0/) | [Setup Node-RED Environment](/monitor_nodered_csv_importer_2.0/setup)                              |
-|                                                                        | [Inject device data directly to Monitor](/monitor_nodered_csv_importer_2.0/setup_device)           |
-|                                                                        | [Inject device data through a gateway to Monitor](/monitor_nodered_csv_importer_2.0/setup_gateway) |
+| [Maximo Monitor Edge Data Collector](edc_8.11/) | [Setup Simulator Environment](edc_8.11/setup)                |
+|                                                  | [Create Monitor Devices](edc_8.11/monitor_devices)           |
+|                                                  | [Create EDC Integration](edc_8.11/edc_integration)           |
+|                                                  | [Deploy and Verify Integration](edc_8.11/deploy)             |
+|                                                  | [Create Monitor Metrics](edc_8.11/monitor_metrics)           |
+| [Monitor Node-RED CSV Importer V2](monitor_nodered_csv_importer_2.0/) | [Setup Node-RED Environment](monitor_nodered_csv_importer_2.0/setup)                              |
+|                                                                        | [Inject device data directly to Monitor](monitor_nodered_csv_importer_2.0/setup_device)           |
+|                                                                        | [Inject device data through a gateway to Monitor](monitor_nodered_csv_importer_2.0/setup_gateway) |
 
 ### CHANGES FOR GITHUB PAGES
 
-  [Github Pages](/github_pages/)  
+  [Github Pages](github_pages/)  
 
 
 ### CONTRIBUTE
 
-  [Contribute to Labs](/contribute/)  
-  [New Lab Template](/template_1.0/)  
+  [Contribute to Labs](contribute/)  
+  [New Lab Template](template_1.0/)  
 
 ---
 **UPDATED: 2023-12-06**
