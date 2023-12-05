@@ -13,6 +13,11 @@ in order to get the basics right.
 The experimentation has been done in a new Github repo in the IBM organization, 
 called maximo-labs-test.
 
+
+After building the labs, so the /site directory has been build, then run this command to publish the site to Github Pages:
+
+    ghp-import -po site
+
 ---
 
 **Updated: 2023-12-05**
