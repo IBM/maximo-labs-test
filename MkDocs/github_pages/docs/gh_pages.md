@@ -15,17 +15,12 @@ Navigating to Settings | Pages you should automatically see that Github Pages ha
 
 ## 2. Edit all links to the sub labs
 
-The toplevel file `index.md` need to change all the links to the sub labs from absolute to relative links, e.g. change this
-
-    ### CHANGES FOR GITHUB PAGES
-    [Github Pages](/github_pages/)  
+The toplevel file `index.md` need to change all the links to the sub labs from absolute to relative links, e.g. change this:</br>
+![Lab LInk Before](../img/gh_pages_02.png)
 
 
-
-to
-
-    ### CHANGES FOR GITHUB PAGES
-    [Github Pages](github_pages/)  
+to:</br>
+![Lab LInk After](../img/gh_pages_03.png)
 
 
 
