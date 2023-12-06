@@ -10,9 +10,9 @@ nav:
     - Welcome to the Template Labs: index.md
     - Get Started: getting_started.md
     - Pre-Requisites: prereqs.md
-    - Exercises:
-        - 1. Do something: something.md
-        - 2. Do something else: something_else.md
+  - Exercises:
+      - 1. Do something: something.md
+      - 2. Do something else: something_else.md
   - About: about.md
 
 theme: readthedocs
