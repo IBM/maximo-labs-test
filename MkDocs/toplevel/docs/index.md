@@ -1,4 +1,4 @@
-# Welcome to the IBM Maximo Labs
+# Welcome to the *New* IBM Maximo Labs
 
 In these hands-on labs you will learn how to get started with the different products that are available in the IBM Maximo 
 portfolio.  The labs are in different states of readiness for use shown below. Feel free to [open issues](https://github.com/IBM/monitor-hands-on-lab/issues/new) and provide us feedback.
