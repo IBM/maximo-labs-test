@@ -2,10 +2,15 @@
 This lab will document the steps needed in order to use Github Pages to host the Maximo Labs,
 like:
 
-* Changes to the github repo
+* Changes to the github repo: [Github](../gh_pages/#1-create-a-new-branch-gh-pages)
 * Change image location in all md files and modify the build_all_mkdocs script
 * Edit mkdocs.yml files for all labs
 * ...
+
+
+* Changes to the github repo: [Github](gh_pages.md#1-create-a-new-branch-gh-pages)
+
+
 
 A minimized replica of the originial monitor-hands-on-labs has been used 
 in order to get the basics right.
@@ -16,8 +21,9 @@ called maximo-labs-test.
 
 After building the labs, so the /site directory has been build, then run this command to publish the site to Github Pages:
 
+```
     ghp-import -po site
-
+```
 ---
 
 **Updated: 2023-12-05**

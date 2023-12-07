@@ -11,6 +11,7 @@ Creating a new lab follows the same process as under [Add content](../add_conten
 The only difference is in the first time you execute step "2. Make changes", so follow this process:
 
 * Follow step "1. Prepare your Git branch" under [Add content](../add_content/#1-prepare-your-git-branch).
+* Follow step "1. Prepare your Git branch" under [Add content](add_content.md#1-prepare-your-git-branch).
 * Come back here and run the below "Make first changes for new lab".
 * Go back to [Add content](../add_content/#3-commit-and-push-your-changes) and run from step 3.<br>(You are done here :-)
 
