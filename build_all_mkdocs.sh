@@ -13,8 +13,9 @@ sleep 1
 
 # Build the top level:
 cd $root_dir/MkDocs/toplevel
+echo "BUILD_INFO - The top level of IBM Maximo Labs is being build"
 mkdocs build
-echo "BUILD_INFO - The top level of IBM Maximo Labs are build."
+echo "BUILD_INFO - The top level of IBM Maximo Labs is build."
 
 ##################################################################################
 #### DON't CHANGE THE ABOVE MANDATORY SECTION WHICH IS A PRE-REQ FOR THE LABS ####
@@ -88,9 +89,10 @@ echo "BUILD_INFO - The top level of IBM Maximo Labs are build."
 
 # Build the Monitor 8.8+ CSV Importer level:
 lab=monitor_nodered_csv_importer_2.0
+echo "BUILD_INFO - The $lab lab is being build"
 cd $root_dir/MkDocs/$lab
 mkdocs build
-echo "BUILD_INFO - The $lab labs are build and added under the top level of IBM Maximo Labs."
+echo "BUILD_INFO - The $lab lab is build and added under the top level of IBM Maximo Labs."
 mv $root_dir/site/$lab/img/$lab $root_dir/site/img/
 echo "BUILD_INFO - The $lab lab images has been moved under /site/img/$lab."
 
@@ -152,17 +154,19 @@ echo "BUILD_INFO - The $lab lab images has been moved under /site/img/$lab."
 
 # Build the Monitor Edge Data Collector level:
 lab=edc_8.11
+echo "BUILD_INFO - The $lab lab is being build"
 cd $root_dir/MkDocs/$lab
 mkdocs build
-echo "BUILD_INFO - The $lab labs are build and added under the top level of IBM Maximo Labs."
+echo "BUILD_INFO - The $lab lab is build and added under the top level of IBM Maximo Labs."
 mv $root_dir/site/$lab/img/$lab $root_dir/site/img/
 echo "BUILD_INFO - The $lab lab images has been moved under /site/img/$lab."
 
 # Build the Monitor Edge Data Collector level:
 lab=github_pages
+echo "BUILD_INFO - The $lab lab is being build"
 cd $root_dir/MkDocs/$lab
 mkdocs build
-echo "BUILD_INFO - The $lab labs are build and added under the top level of IBM Maximo Labs."
+echo "BUILD_INFO - The $lab lab is build and added under the top level of IBM Maximo Labs."
 #mv $root_dir/site/$lab/img/$lab $root_dir/site/img/
 #echo "BUILD_INFO - The $lab lab images has been moved under /site/img/$lab."
 
@@ -172,17 +176,19 @@ echo "BUILD_INFO - The $lab labs are build and added under the top level of IBM 
 
 # Build the template level:
 lab=template_1.0
+echo "BUILD_INFO - The $lab lab is being build"
 cd $root_dir/MkDocs/$lab
 mkdocs build
-echo "BUILD_INFO - The $lab labs are build and added under the top level of IBM Maximo Labs."
+echo "BUILD_INFO - The $lab lab is build and added under the top level of IBM Maximo Labs."
 mv $root_dir/site/$lab/img/$lab $root_dir/site/img/
 echo "BUILD_INFO - The $lab lab images has been moved under /site/img/$lab."
 
 # Build the contribution level:
 lab=contribute
+echo "BUILD_INFO - The $lab lab is being build"
 cd $root_dir/MkDocs/$lab
 mkdocs build
-echo "BUILD_INFO - The $lab labs are build and added under the top level of IBM Maximo Labs."
+echo "BUILD_INFO - The $lab lab is build and added under the top level of IBM Maximo Labs."
 mv $root_dir/site/$lab/img/$lab $root_dir/site/img/
 echo "BUILD_INFO - The $lab lab images has been moved under /site/img/$lab."
 
