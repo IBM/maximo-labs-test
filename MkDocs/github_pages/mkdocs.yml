@@ -13,6 +13,7 @@ nav:
     - 1. Setup Github Pages: gh_pages.md
     - 2. Update mkdocs.yml: mkdocs_yml.md
     - 3. Change Image Location: image_locations.md
+    - 4. Deploy to Github Pages: deploy.md
   - About:
     - Release Notes: release_notes.md
     - Copyright: ../../copyright
