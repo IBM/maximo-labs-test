@@ -8,7 +8,6 @@ nav:
   - Get back to Maximo Labs: ..
   - Github Pages Lab:
     - Welcome to the Github Pages Lab: index.md
-    - Pre-Requisites: prereqs.md
   - Exercises:
     - 1. Setup Github Pages: gh_pages.md
     - 2. Update mkdocs.yml: mkdocs_yml.md
