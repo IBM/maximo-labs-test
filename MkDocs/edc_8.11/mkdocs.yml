@@ -5,7 +5,7 @@ site_description: "Maximo Monitor Edge Data Collector Hands on Lab"
 site_dir: ../../site/edc_8.11
 
 nav:
-  - Get back to Maximo Labs: /
+  - Get back to Maximo Labs: ..
   - Monitor Edge Data Collector Lab:
     - Welcome: index.md
     - Pre-Requisites: prereqs.md

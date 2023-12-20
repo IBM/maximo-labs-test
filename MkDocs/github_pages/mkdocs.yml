@@ -4,14 +4,18 @@ site_author: Jan Ekstrøm
 site_description: "Github Pages Hands on Lab"
 site_dir: ../../site/github_pages
 
+repo_name: GitHub
+repo_url: https://github.com/ibm/maximo-labs-test
+
 nav:
-  - Get back to Maximo Labs: ../
+  - Get back to Maximo Labs: ..
   - Github Pages Labs:
     - Welcome to the Github Pages Labs: index.md
     - Pre-Requisites: prereqs.md
   - Exercises:
-        - 1. Setup Github Pages: gh_pages.md
-        - 2. Change Image Location: image_locations.md
+    - 1. Setup Github Pages: gh_pages.md
+    - 2. Update mkdocs.yml: mkdocs_yml.md
+    - 3. Change Image Location: image_locations.md
   - About: about.md
 
 theme: readthedocs
