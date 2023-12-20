@@ -30,4 +30,5 @@ Once the image locations have changed (in the folder structure and in the links 
 
 by removing the last two lines per lab, hence do not copy images to a central (but unavailable for github pages) location:
 ![Build script after](img/image_locations_04.png)
+While we are there also change/add the ecco strings to easier see what is happening during debug of building the whole site.
 
