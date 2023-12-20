@@ -4,9 +4,6 @@ site_author: Jan Ekstrøm
 site_description: "Github Pages Hands on Lab"
 site_dir: ../../site/github_pages
 
-repo_name: GitHub
-repo_url: https://github.com/ibm/maximo-labs-test
-
 nav:
   - Get back to Maximo Labs: ..
   - Github Pages Labs:
