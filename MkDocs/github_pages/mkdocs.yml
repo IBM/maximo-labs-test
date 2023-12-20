@@ -13,7 +13,9 @@ nav:
     - 1. Setup Github Pages: gh_pages.md
     - 2. Update mkdocs.yml: mkdocs_yml.md
     - 3. Change Image Location: image_locations.md
-  - About: about.md
+  - About:
+    - Release Notes: release_notes.md
+    - Copyright: ../../copyright
 
 theme: readthedocs
 markdown_extensions:
