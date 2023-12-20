@@ -1,15 +1,16 @@
 # Objectives
-The mkdocs.yml file needs to be uupdated with the following:
+The mkdocs.yml file needs to be updated with the following:
 
 * Site information
 * Link to Home changhed to relative URL (..)
 * New About section
 
-
-
-## New About section
-The About information has changed to be a separate section.
-
-The about.md file must be renamed to release_information.md and the information about contribuiters and release information is kept.
-
+The About information has changed to be a separate section.</br>
+The about.md file must be renamed to release_notes.md and the information about contribuiters and release information is kept.</br>
 The about section to include link to common Copyright page (../../copyright) instead of being a part of the about.md file => easier to maintain in one place only.
+
+## Before
+![mkdocs.yml Before](img/mkdocs_yml_updates_01.png)
+
+## After
+![mkdocs.yml After](img/mkdocs_yml_updates_02.png)

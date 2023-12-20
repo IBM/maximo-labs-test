@@ -6,8 +6,8 @@ site_dir: ../../site/github_pages
 
 nav:
   - Get back to Maximo Labs: ..
-  - Github Pages Labs:
-    - Welcome to the Github Pages Labs: index.md
+  - Github Pages Lab:
+    - Welcome to the Github Pages Lab: index.md
     - Pre-Requisites: prereqs.md
   - Exercises:
     - 1. Setup Github Pages: gh_pages.md
