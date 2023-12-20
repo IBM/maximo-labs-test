@@ -3,7 +3,6 @@ These are the steps to setup Github Pages in a Githup repository:
 
 * Create a new branch: gh-pages
 * Edit all links to the sub labs
-¨
 
 
 ## 1. Create a new branch: gh-pages

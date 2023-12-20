@@ -2,8 +2,7 @@
 Image locations and references to the images has to change:
 
 * Image location of lab images
-* Edit build_all_mkdocs.sh 
-¨
+* Edit build_all_mkdocs.sh
 
 
 ## 1. Image location of lab images
