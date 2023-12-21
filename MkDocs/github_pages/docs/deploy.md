@@ -14,4 +14,7 @@ The site directory contains the complete MKdocs build. This has to be pushed to 
  
     ghp-import -po site
 
+
+Further information about ghp-import, can be found here: [https://pypi.org/project/ghp-import/](https://pypi.org/project/ghp-import/){target=_blank}
+
 ---

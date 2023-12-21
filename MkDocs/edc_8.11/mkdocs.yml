@@ -17,7 +17,7 @@ nav:
         - 5. Create Monitor metric: monitor_metrics.md
   - About:
     - Release Notes: release_notes.md
-    - Copyright: ../../copyright
+    - Copyright: ../copyright
 
 theme: readthedocs
 

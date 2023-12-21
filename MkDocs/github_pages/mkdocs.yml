@@ -15,7 +15,7 @@ nav:
     - 4. Deploy to Github Pages: deploy.md
   - About:
     - Release Notes: release_notes.md
-    - Copyright: ../../copyright
+    - Copyright: ../copyright
 
 theme: readthedocs
 markdown_extensions:
