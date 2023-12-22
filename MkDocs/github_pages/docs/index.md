@@ -1,15 +1,17 @@
 # Welcome to the IBM Maximo Github Pages Lab
-This lab will document the steps needed in order to use Github Pages to host the Maximo Labs,
-like:
+This lab will document the steps needed in order to use Github Pages to host the Maximo Labs:
 
-* Changes to the github repo: [Github](../gh_pages/#1-create-a-new-branch-gh-pages)
-* Change image location in all md files and modify the build_all_mkdocs script
+* Changes to the github repo to use Github Pages
 * Edit mkdocs.yml files for all labs
-* ...
+* Change image location in all md files and modify the build_all_mkdocs script
+* Change lunks in all md files to adhere to the new standard in MKdocs
+* Deploy to Github Pages
 
 
-A minimized replica of the originial monitor-hands-on-labs has been used in order to get the basics right. The experimentation has been done in a new Github repo in the IBM organization, 
-called maximo-labs-test. All the results are documented her in this lab, so it can be used to modify the full Maximo Labs repository.
+A minimized replica of the originial `monitor-hands-on-labs` has been used in order to experiment and identify the needed changes. The experimentation has been done in a new Github repo in the IBM organization, 
+called `maximo-labs-test`. 
+
+The results are documented her in this lab, so it can be used to modify the full Maximo Labs repo.
 
 ---
 
