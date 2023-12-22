@@ -65,10 +65,10 @@ Push the changes to the Github branch:
 Go to the Github repository [https://github.com/IBM/monitor-hands-on-lab](https://github.com/IBM/monitor-hands-on-lab){target=_blank}
 
 Select your branch in the dropdown box:
-![Select branch](/img/contribute/add_select_branch.png)
+![Select branch](img/add_select_branch.png)
 
 Create a Pull request:
-![Select Pull request](/img/contribute/add_select_pull_request.png)
+![Select Pull request](img/add_select_pull_request.png)
 
 Give it a title and description. Hit the `Create pull request` button.
 

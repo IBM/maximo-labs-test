@@ -34,14 +34,14 @@ First lets get the python 3 virtual environment up and running:
     pip list
 
 
-![Create virtual environment](/img/contribute/pre-req_3.png)
+![Create virtual environment](img/pre-req_3.png)
 
 Then you will install the MkDocs packages and verify the packages has been installed:
 
     pip install mkdocs
     pip list
 
-![pip list after MkDocs package is installed](/img/contribute/pre-req_4.png)
+![pip list after MkDocs package is installed](img/pre-req_4.png)
 
 
 You can deactivate the virtual environment with this command:
