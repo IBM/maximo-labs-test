@@ -22,6 +22,10 @@ Meaning this structure:
 has to change to this structure:
 ![Image Location After](img/image_locations_02.png)
 
+It also means, that the following kind of messages during the build should dissapper:
+![Remove Image INFO during build](img/image_locations_07.png)
+
+
 ## 2. Edit build_all_mkdocs.sh
 
 Once the image locations have changed (in the folder structure and in the links in the md files) then we need to change the build script from:
