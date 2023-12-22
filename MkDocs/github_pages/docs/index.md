@@ -1,5 +1,5 @@
 # Welcome to the IBM Maximo Github Pages Lab
-This lab will document the steps needed in order to use Github Pages to host the Maximo Labs:
+This lab will document the tasks needed in order to use Github Pages to host the Maximo Labs:
 
 * Changes to the github repo to use Github Pages
 * Edit mkdocs.yml files for all labs
