@@ -82,4 +82,4 @@ Open a browser and navigate to [http://localhost:8080/](http://localhost:8080/){
 To find these contribute instructions navigate to [http://localhost:8080/contribute](http://localhost:8080/contribute){target=_blank}
 
 !!! tip "Next step"
-    You are now ready to either [add to an existing lab](../add_content/) or [create a new lab from scratch](../create_new/).
+    You are now ready to either [add to an existing lab](add_content.md) or [create a new lab from scratch](create_new.md).

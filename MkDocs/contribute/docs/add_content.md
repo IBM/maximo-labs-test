@@ -17,7 +17,7 @@ Basically you need to do the following to create a new branch locally and on the
 
 !!! note
     If you are making a new lab, then jump over to "Make first changes for new lab"<br>
-    on [Create new lab](../create_new/#make-first-changes-for-new-lab).
+    on [Create new lab](create_new.md#make-first-changes-for-new-lab).
 
 
 Locate the labs folder under the /MkDocs, e.g. /MkDocs/monitor_8.2<br>
