@@ -26,6 +26,9 @@ jobs:
       - run: pip install mkdocs ghp-import
       - run: pip list
 
+      - name: Execute bash script
+        run: build.sh
+
       - name: List files in the repository
         run: ls ${{ github.workspace }}
       - run: echo "🍏 This job's status is ${{ job.status }}."
