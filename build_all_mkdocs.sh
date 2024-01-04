@@ -22,6 +22,7 @@ echo "BUILD_INFO - The top level of IBM Maximo Labs is build."
 
 #### BELOW IS WHERE EACH LAB IS BEING BUILD                                   ####
 
+:<<COMMENT
 # Build the Monitor SaaS level:
 lab=monitor_saas
 echo "==================================================================================="
@@ -86,6 +87,8 @@ cd $root_dir/MkDocs/$lab
 mkdocs build
 echo "BUILD_INFO - The $lab lab is build and added under the top level of IBM Maximo Labs."
 
+COMMENT
+
 # Build the Monitor 8.8+ CSV Importer level:
 lab=monitor_nodered_csv_importer_2.0
 echo "==================================================================================="
@@ -93,6 +96,8 @@ echo "BUILD_INFO - The $lab lab is being build"
 cd $root_dir/MkDocs/$lab
 mkdocs build
 echo "BUILD_INFO - The $lab lab is build and added under the top level of IBM Maximo Labs."
+
+:<<COMMENT
 
 # Build the MAS v8.7 deployment for Health Predict and Utilities Lab level:
 lab=apm_8.7
@@ -149,6 +154,8 @@ echo "BUILD_INFO - The $lab lab is being build"
 cd $root_dir/MkDocs/$lab
 mkdocs build
 echo "BUILD_INFO - The $lab lab is build and added under the top level of IBM Maximo Labs."
+
+COMMENT
 
 # Build the Monitor Edge Data Collector level:
 lab=edc_8.11
