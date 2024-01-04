@@ -1,4 +1,4 @@
-# Welcome to the IBM Maximo Labs</br>(DIFFERENT from Original Maximo Labs)
+# Welcome to the IBM Maximo Labs</br>(DIFFERENT from Original Maximo Labs)</br>(TESTING automated build using Actions)
 
 
 In these hands-on labs you will learn how to get started with the different products that are available in the IBM Maximo 
