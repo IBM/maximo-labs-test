@@ -22,12 +22,13 @@ jobs:
           key: ${{ github.ref }}
           path: .cache
           
+      - run: ls -la
       - run: pip list
       - run: pip install mkdocs ghp-import
       - run: pip list
 
       - name: Execute bash script
-        run: bash build.sh
+        run: ./build.sh
 
       - name: List files in the repository
         run: ls -la ${{ github.workspace }}

@@ -11,6 +11,17 @@ rm -r site
 echo "BUILD_INFO - The existing /site has been removed to avoid any leftovers."
 sleep 1
 
+# Check if DEPLOY_ENV is already defined
+if [[ -z "${DEPLOY_ENV}" ]]; then
+  MY_SCRIPT_VARIABLE="Some default value because DEPLOY_ENV is undefined"
+else
+  MY_SCRIPT_VARIABLE="${DEPLOY_ENV}"
+fi
+
+echo "MY_SCRIPT_VARIABLE = $MY_SCRIPT_VARIABLE"
+echo "DEPLOY_ENV = $DEPLOY_ENV"
+
+
 # Build the top level:
 cd $root_dir/MkDocs/toplevel
 mkdocs build
