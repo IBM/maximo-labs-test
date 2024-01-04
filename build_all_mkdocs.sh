@@ -7,7 +7,7 @@
 if [[ -z "${DEPLOY_ENV}" ]]; then
   DEPLOY_ENV="Local"
 fi
-echo "DEPLOY_ENV = $DEPLOY_ENV"
+#echo "DEPLOY_ENV = $DEPLOY_ENV"
 
 # Set the Root directory, which is where this file is located.
 root_dir=`pwd`
