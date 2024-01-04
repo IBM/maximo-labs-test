@@ -11,9 +11,10 @@ rm -r site
 echo "BUILD_INFO - The existing /site has been removed to avoid any leftovers."
 sleep 1
 
-# Check if DEPLOY_ENV is already defined
+# Check if DEPLOY_ENV is already defined otherwise set it to Local
 if [[ -z "${DEPLOY_ENV}" ]]; then
   MY_SCRIPT_VARIABLE="Some default value because DEPLOY_ENV is undefined"
+  DEPLOY_ENV="Local"
 else
   MY_SCRIPT_VARIABLE="${DEPLOY_ENV}"
 fi
@@ -203,3 +204,12 @@ echo "BUILD_INFO - The $lab lab is being build"
 cd $root_dir/MkDocs/$lab
 mkdocs build
 echo "BUILD_INFO - The $lab lab is build and added under the top level of IBM Maximo Labs."
+
+
+if [ $DEPLOY_ENV = "Local" ]; then
+    # Start the web server hosting the complete site if executed locally - then open the following URL in a browser: http://127.0.0.1:8080
+    echo "==================================================================================="
+    cd $root_dir/site
+    echo "BUILD_INFO - Starting the web server on http://127.0.0.1:8080."
+    python -m http.server --cgi 8080
+fi
