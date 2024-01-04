@@ -27,10 +27,13 @@ jobs:
       - run: pip install mkdocs ghp-import
       - run: pip list
 
-      - name: Execute bash script
+      - name: Build All MKdocs
         env:
           DEPLOY_ENV: Github
-        run: ./build.sh
+        run: ./build_all_mkdocs.sh
+
+      - name: Deploy the build site to gh-pages
+        run: ghp-import -po ${GITHUB_WORKSPACE}/site
 
       - name: List files in the repository
         run: ls -la ${{ github.workspace }}
