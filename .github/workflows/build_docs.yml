@@ -27,7 +27,7 @@ jobs:
       - run: pip list
 
       - name: Execute bash script
-        run: build.sh
+        run: bash build.sh
 
       - name: List files in the repository
         run: ls ${{ github.workspace }}
