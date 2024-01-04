@@ -1,6 +1,6 @@
 site_name: Edge Data Collector Lab
 site_url: https://ibm.github.io/maximo-labs/
-site_author: Jan Ekstrøm
+site_author: Jan Ekstrøm & Contributors
 site_description: "Maximo Monitor Edge Data Collector Hands on Lab"
 site_dir: ../../site/edc_8.11
 

@@ -17,7 +17,8 @@
 
 |Date     |By             | Description                                           |
 |:--------|:--------------|:------------------------------------------------------|
-|2023-12-18|Jan Ekstrøm|Updated the contribute and template lab.|
+|2024-01-02|Jan Ekstrøm|Restructured to work on Github Pages.|
+|2023-12-29|Jan Ekstrøm|Updated the contribute and template labs.|
 |2023-10-30|Jan Ekstrøm|Removed deprecated Universal Analytics.|
 |2023-09-25|Jan Ekstrøm|Added the Maximo Monitor Edge Data Collector Lab.|
 |2023-03-24|Mike Lamb & Jan Ekstrøm|Added Monitor Node-RED CSV Importer Lab V2.0|

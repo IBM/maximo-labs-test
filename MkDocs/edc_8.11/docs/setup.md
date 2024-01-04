@@ -9,7 +9,7 @@ In this Exercise you will learn how to:
 *Before you begin:*  
 This Exercise requires that you have:
 
-1. completed the pre-requisites required for [all labs](../prereqs)
+1. completed the pre-requisites required for [all labs](prereqs.md)
  
 
 !!! tip 
@@ -50,7 +50,7 @@ Start by renaming it to save a copy:
 ![Rename config.json](img/setup_05.png)</br></br>
 
 then download the `config.json` that contains the holding registers for 10 Lenze i550 VFD's.</br>
-You can get it here: [config.json](/edc_8.11/config/config.json){target=_blank}</br>
+You can get it here: [config.json](config/config.json){target=_blank}</br>
 Copy it into the Windows environment in the unslave folder:
 ![Copy config.json](img/setup_06.png)</br></br>
 
@@ -65,7 +65,7 @@ and you will see a CMD window that looks like this:
 
 !!! tip
     Another config file is available with 90 Lenze i550 devices in case you need that.</br>
-    You can get it here: [config-90.json](/edc_8.11/config/config-90.json){target=_blank}</br>
+    You can get it here: [config-90.json](config/config-90.json){target=_blank}</br>
 
 ---
 Congratulations you have successfully setup the simulator environment.</br>
