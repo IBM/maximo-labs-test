@@ -9,14 +9,24 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
-      - uses: actions/setup-python@v4
+      - name: Check out repository code
+        uses: actions/checkout@v4
+      - run: echo "💡 The ${{ github.repository }} repository has been cloned to the runner."
+
+      - name: Install Python 3.9.x
+        uses: actions/setup-python@v4
         with:
           python-version: 3.9.x
       - uses: actions/cache@v2
         with:
           key: ${{ github.ref }}
           path: .cache
+          
+      - run: pip list
       - run: pip install mkdocs ghp-import
-      - run: bash build_all_mkdocs.sh
-      - run: ghp-import -po site
+      - run: pip list
+
+      - name: List files in the repository
+        run: |
+          ls ${{ github.workspace }}
+      - run: echo "🍏 This job's status is ${{ job.status }}."
