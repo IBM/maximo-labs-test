@@ -28,6 +28,8 @@ jobs:
       - run: pip list
 
       - name: Execute bash script
+        env:
+          DEPLOY_ENV: Github
         run: ./build.sh
 
       - name: List files in the repository
