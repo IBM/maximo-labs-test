@@ -1,4 +1,5 @@
-# Welcome to the IBM Maximo Labs
+# Welcome to the IBM Maximo Labs</br>(DIFFERENT from Original Maximo Labs)
+
 
 In these hands-on labs you will learn how to get started with the different products that are available in the IBM Maximo 
 portfolio.  The labs are in different states of readiness for use shown below. Feel free to [open issues](https://github.com/IBM/monitor-hands-on-lab/issues/new) and provide us feedback.
@@ -8,22 +9,22 @@ portfolio.  The labs are in different states of readiness for use shown below. F
 
 ---
 
-## Converting to Github Pages (to be removed when done)
+## Converting to Github Pages
 
 
 Instructions for the migration: [Github Pages](github_pages/)  
 
-| Lab                                                                    | Converted  |
-|------------------------------------------------------------------------|------------|
-| ***Maximo Labs Top Level***                                            | |
-| [Maximo Labs Top Level](./)                                            | ![Ready](img/ready_small.png)|
-| [Github Pages](github_pages/)                                          | ![Ready](img/ready_small.png)|
+| Lab                                                                    | Converted  | Present here |
+|------------------------------------------------------------------------|------------|--------------|
+| ***Maximo Labs Top Level***                                            | | |
+| [Maximo Labs Top Level](./)                                            | ![Ready](img/ready_small.png)| ![Ready](img/ready_small.png)|
+| [Github Pages](github_pages/)                                          | ![Ready](img/ready_small.png)| ![Ready](img/ready_small.png)|
 | ***Maximo Application Suite 8.11***                                    | |
-| [Maximo Monitor Edge Data Collector](edc_8.11/)                        | ![Ready](img/ready_small.png)|
+| [Maximo Monitor Edge Data Collector](edc_8.11/)                        | ![Ready](img/ready_small.png)| ![Ready](img/ready_small.png)|
 | ***Maximo Application Suite 8.11 (Under Development)***                | |
 | [Health, Predict and Utilities](apm_8.11/)                             | ![Ready](img/ready_small.png)|
 | ***Maximo Application Suite 8.10***                                    | |
-| [Monitor Node-RED CSV Importer V2](monitor_nodered_csv_importer_2.0/)  | ![Ready](img/ready_small.png)|
+| [Monitor Node-RED CSV Importer V2](monitor_nodered_csv_importer_2.0/)  | ![Ready](img/ready_small.png)| ![Ready](img/ready_small.png)|
 | ***Maximo Application Suite 8.9***                                     | |
 | [Deploy MAS 8.9](ocp_8.9/)                                             | ![Ready](img/ready_small.png)|
 | [Health, Predict and Utilities](apm_8.9/)                              | ![Ready](img/ready_small.png)|
@@ -46,8 +47,8 @@ Instructions for the migration: [Github Pages](github_pages/)
 | [Monitor SaaS](monitor_saas/)                                          | ![Ready](img/ready_small.png) |
 | [Visual Inspection (1.3.0)](mvi_saas/)                                 | ![Ready](img/ready_small.png) |
 | ***CONTRIBUTE TO MAXIMO LABS***                                        | |
-| [Contribute to Labs](contribute/)                                      | ![Under Development](img/under_development_small.png)|
-| [New Lab Template](template_1.0/)                                      | ![Ready](img/ready_small.png)|
+| [Contribute to Labs](contribute/)                                      | ![Under Development](img/under_development_small.png)| ![Ready](img/ready_small.png)|
+| [New Lab Template](template_1.0/)                                      | ![Ready](img/ready_small.png)| ![Ready](img/ready_small.png)|
 
 ![Not started](img/not_started_small.png)
 ![Under Development](img/under_development_small.png)
@@ -62,6 +63,6 @@ See the [Copyright page](copyright.md) for how the Maximo Hands on Labs are lice
 
 ---
 
-**UPDATED: 2024-01-02**
+**UPDATED: 2024-01-04**
 
 ---
