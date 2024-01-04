@@ -2,7 +2,6 @@
 
 Creating a new lab follows the same process as under [Add content](add_content.md):
 
-
 1. Prepare your Git branch
 2. Make changes
 3. Commit and push your changes
@@ -13,11 +12,11 @@ The only difference is in the first time you execute step "2. Make changes", so 
 
 * Follow step "1. Prepare your Git branch" under [Add content](add_content.md#1-prepare-your-git-branch).
 * Come back here and run the below "Make first changes for new lab".
-* Go back to [Add content](add_content.md#3-commit-and-push-your-changes) and run from step 3. (You are done here :-)
+* Go back to [Add content](add_content.md#3-commit-and-push-your-changes) and run from step 3.<br>(You are done here :-)
 
 ## Make first changes for new lab
 
-The following steps are used to crate a new lab based on the provided [template](../../template_1.0)
+The following steps are used to crate a new lab based on the provided [template](../../template_1.0/)
 
 ### 1. Replicate Template to your lab
 
@@ -82,12 +81,9 @@ Save the file.
 
 ### 4. Modify the about.md file
 
-The `about.md` file contains a list of the contributors to this lab as well as the Change Information.  
+The `release_notes.md` file contains a list of the contributors to this lab as well as the Change Information.  
 
-Select and open the `about.md` file located in the `docs` folder of you new lab
-![Select about.md](img/edit_about_1.png)
-
-Edit the file and make sure to change the marked areas suitable for your new lab
+Select and open the `release_notes.md` file located in the `docs` folder of you new lab. Edit the file and make sure to change the marked areas suitable for your new lab
 ![Edit about.md](img/edit_about_2.png)
 
 Which could look like this
