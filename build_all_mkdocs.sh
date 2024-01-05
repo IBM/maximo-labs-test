@@ -3,12 +3,6 @@
 #### DON't CHANGE THE BELOW MANDATORY SECTION WHICH IS A PRE-REQ FOR THE LABS ####
 ##################################################################################
 
-# Check if DEPLOY_ENV is already defined otherwise set it to Local
-if [[ -z "${DEPLOY_ENV}" ]]; then
-  DEPLOY_ENV="Local"
-fi
-#echo "DEPLOY_ENV = $DEPLOY_ENV"
-
 # Set the Root directory, which is where this file is located.
 root_dir=`pwd`
 
@@ -200,8 +194,9 @@ mkdocs build
 echo "BUILD_INFO - The $lab lab is build and added under the top level of IBM Maximo Labs."
 
 echo "==================================================================================="
+
 # Start the web server hosting the complete site if executed locally - then open the following URL in a browser: http://127.0.0.1:8080
-if [ $DEPLOY_ENV = "Local" ]; then
+if [[ -z "${GITHUB_DEPLOY}" ]]; then
     cd $root_dir/site
     echo "BUILD_INFO - Starting the web server on http://127.0.0.1:8080."
     python -m http.server --cgi 8080
