@@ -11,7 +11,6 @@ jobs:
     steps:
       - name: Check out repository code
         uses: actions/checkout@v4
-      - run: echo "💡 The ${{ github.repository }} repository has been cloned to the runner."
 
       - name: Install Python 3.9.x
         uses: actions/setup-python@v4
@@ -22,14 +21,12 @@ jobs:
           key: ${{ github.ref }}
           path: .cache
           
-      - run: ls -la
-      - run: pip list
       - run: pip install mkdocs ghp-import
       - run: pip list
 
       - name: Build All MKdocs
         env:
-          GITHUB_DEPLOY: True
+          MKDOCS_DEPLOY: True
         run: ./build_all_mkdocs.sh
 
       - name: Deploy the build site to gh-pages
