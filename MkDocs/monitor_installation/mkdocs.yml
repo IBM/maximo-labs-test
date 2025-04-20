@@ -1,0 +1,34 @@
+site_name: Maximo Monitor Installation Lab
+site_url: https://ibm.github.io/maximo-labs/
+site_author: Jan Ekstrøm
+site_description: "Maximo Monitor Installation Hands-on Lab"
+site_dir: ../../site/monitor_installation
+
+nav:
+  - Get back to Maximo Labs: ..
+  - Maximo Monitor Installation Lab:
+    - Welcome: index.md
+    - Pre-Requisites: prereqs.md
+  - Exercises:
+        - 1. Install Maximo Monitor: install_monitor.md
+  - About:
+    - Release Notes: release_notes.md
+    - Copyright: ../copyright
+
+theme:
+  name: readthedocs
+  highlightjs: true
+  hljs_languages:
+    - yaml
+
+extra_css:
+  - css/extra.css
+extra_javascript:
+  - js/popper.min.js
+  - js/tippy-bundle.umd.js
+  - js/clipboard.js
+  - js/extra.js
+
+markdown_extensions:
+  - attr_list
+  - admonition
